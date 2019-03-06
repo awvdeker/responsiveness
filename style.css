@@ -1,17 +1,26 @@
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 400px){
   body {
     background-color: red;
   }
+  #medium, #large {
+    display: none;
+  }
 }
 
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 400px) and (max-width: 768px){
   body {
     background-color: green;
+  }
+  #small, #large {
+    display: none;
   }
 }
 
 @media only screen and (min-width: 768px){
   body {
     background-color: blue;
+  }
+  #small, #medium {
+    display: none;
   }
 }
