@@ -5,6 +5,9 @@
   #medium, #large {
     display: none;
   }
+  #small {
+    font-size: small;
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 768px){
@@ -14,6 +17,9 @@
   #small, #large {
     display: none;
   }
+  #medium {
+    font-size: medium;
+  }
 }
 
 @media only screen and (min-width: 768px){
@@ -22,5 +28,8 @@
   }
   #small, #medium {
     display: none;
+  }
+  #large {
+    font-size: large;
   }
 }
