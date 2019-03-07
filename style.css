@@ -2,11 +2,14 @@
   body {
     background-color: red;
   }
-  #medium, #large {
+  /*#medium, #large {
     display: none;
   }
   #small {
     font-size: small;
+  }*/
+  div {
+    width: 100%;
   }
 }
 
@@ -14,11 +17,22 @@
   body {
     background-color: green;
   }
-  #small, #large {
+  /*#small, #large {
     display: none;
   }
   #medium {
     font-size: medium;
+  }*/
+  #small{
+    float: left;
+    width: 66%;
+  }
+  #medium{
+    float: left;
+    width: 33%;
+  }
+  #large{
+    width: 100%;
   }
 }
 
@@ -26,10 +40,22 @@
   body {
     background-color: blue;
   }
-  #small, #medium {
+  /*#small, #medium {
     display: none;
   }
   #large {
     font-size: large;
+  }*/
+  #small{
+    float: left;
+    width: 33%;
+  }
+  #medium{
+    float: left;
+    width: 33%;
+  }
+  #large{
+    float: left;
+    width: 33%;
   }
 }
